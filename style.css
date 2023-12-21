@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+main {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.um {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.um input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.um #mostrarSenha {
+    cursor: pointer;
+    color: #007bff;
+}
+
+#medidorPoder {
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+#requisitos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.requisito {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+}
+
+#textoPoder {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Adicione estilos adicionais conforme necessário */
